@@ -7,3 +7,4 @@ draft: true
 ## Aktuelle Mitglieder des Fachschaftsrat Informatik
 
 - Vorname / Name
+- Vorname / Name
