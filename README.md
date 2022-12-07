@@ -11,3 +11,11 @@ This page is build with the static site generator [Hugo](https://gohugo.io/). Th
 
 - Create a new post
   - `hugo new <subsection>/<title>.md` i.e. `hugo new posts/my-first-post.md`
+
+## Local tetsting
+
+Themes are stored as git submodules, so they must be checked out before use:
+
+```shell
+git submodule update --init --recursive
+```
