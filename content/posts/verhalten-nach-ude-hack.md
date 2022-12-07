@@ -1,9 +1,8 @@
 ---
 title: "Verhalten nach UDE Hack"
 date: 2022-12-07T14:34:49Z
-publishDate: 2022-12-08T12:00:00Z
 expiryDate: 2023-12-31T23:59:59Z
-draft: true
+draft: false
 author: FSRi
 categories:
 - Sicherheit
@@ -33,7 +32,7 @@ Wir *vermuten*, dass die Passwörter zur Anmeldung an Uni-Diensten (z.B. Moodle)
 wie auch persönliche WLAN-Passwörter (eventuell gleich dem Anmeldepasswort),
 nicht mehr sicher sind.
 
-Sollten Sie diese Passworter auch anderswo verwendet haben,
+Sollten Sie diese Passwörter auch anderswo verwendet haben,
 empfehlen wir diese baldestmöglich zu wechseln.
 
 ## Passwort-Tipps
@@ -57,7 +56,7 @@ die Passwörter in einer __lokalen__, verschlüsselten Datenbank speichern.
 Die Originalversion KeePass ist einer vier populärsten Passwortmanager ([2017](https://en.wikipedia.org/wiki/KeePass#:~:text=a%202017%20consumer%20reports%20article%20described%20keepass%20as%20one%20of%20the%20four%20most%20widely%20used%20password%20managers%20(alongside%201password%2C%20dashlane%20and%20lastpass))),
 und ist besonders für Windows Systeme geeignet.
 
-Für nutzer anderer, oder insbesondere mehrerer Betriebssystemem (Linux, Android, iOS, ...),
+Für Nutzer anderer, oder insbesondere mehrerer Betriebssysteme (Linux, Android, iOS, ...),
 empfiehlt sich die Cross-Platform Alternative KeePassXC.
 
 ![Screenshot KeePassXC Oberfläche Thema Vergleich](https://keepassxc.org/images/screenshots/theme_comparison.png)
@@ -72,10 +71,10 @@ Wir raten zu KeePassXC: [Quick Start Guide](https://keepassxc.org/docs/KeePassXC
 der Passwörter, Notizen, und Weiteres in einer online gespeicherten, verschlüsselten "Vault" ablegt.
 
 Diese Vault ist wie bei KeePass mit einem "Master-Passwort" geschützt,
-die Desktop- und Mobile-Apps unterstützen das Ensperren der Vault allerdings auch
+die Desktop- und Mobile-Apps unterstützen das Entsperren der Vault allerdings auch
 mit Biometrischer Authentifizierung.
 
-Die Synchronisation über mehrere Geräte, wie auch nutzung im Browser über Addons,
+Die Synchronisation über mehrere Geräte, wie auch Nutzung im Browser über Addons,
 werden von Bitwarden leicht gemacht.
 
 Bitwarden ist ein kostenfreies Produkt,
