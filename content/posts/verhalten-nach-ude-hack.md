@@ -4,7 +4,7 @@ date: 2022-12-07T14:34:49Z
 publishDate: 2022-12-08T12:00:00Z
 expiryDate: 2023-12-31T23:59:59Z
 draft: true
-author: Kord Kurpanek
+author: FSRi
 categories:
 - Sicherheit
 - UDEoffline
@@ -86,8 +86,37 @@ Die meisten Features sind in der kostenfreien Version enthalten.
 
 Für Selbst-Hoster gibt es das Community-Projekt [Vaultwarden](https://github.com/dani-garcia/vaultwarden).
 
+### Mehr-Faktor-Authentifizierung
+
+Ein Passwort ist oft nicht mehr ausreichend, um ein Konto zu schützen.
+
+Zwei-Faktor-Authentifizierung (2FA) bietet eine weitere Hürde für Angreifer,
+die das eigene Anmelden aber kaum erschwert.
+
+Meist meint 2FA die Methoden "One-Time Password" (OTP) oder "Timed One-Time Password" (TOTP),
+wobei es sich bei beiden um einmalig nutzbare Anmeldecodes handelt,
+die zusätzlich zum Passwort beim Anmelden eingegeben werden müssen.
+
+OTP Codes erhält man z.B. per E-Mail oder SMS.
+Davon raten wir allerdings ab, da E-Mail und SMS nicht als sichere 2FA Quellen gelten.
+
+TOTP Codes werden von einer App generiert, häufig auf dem Mobilgerät,
+oder auch vom Passwort-Manager. Diese sind, im Gegensatz zu OTP Codes,
+nur innerhalb eines kurzen Zeitfensters nutzbar (rd. 30 Sekunden).
+Das hält Angreifer noch besser davon ab, den Code zu erraten.
+
+Zwei beliebte 2FA Apps sind:
+
+- [Authy](https://authy.com/features/) ([Twilio](https://www.twilio.com/company))
+- [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) (Google)
+
+Beide sind in Features ähnlich, wobei Authy eine Wiederherstellung der Codes nach Datenverlust/Zurücksetzen ermöglicht.
+Wir empfehlen Authy.
+
 ## Weitere Literatur
 
 Für Informationen über diesen Artikel hinaus, hier ein paar Links:
 
+- <https://authy.com/what-is-2fa/>
 - <https://www.consumerreports.org/digital-security/everything-you-need-to-know-about-password-managers/>
+- <https://www.phishing.org/what-is-phishing>
