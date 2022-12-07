@@ -4,11 +4,11 @@ date: 2022-12-07T14:34:49Z
 publishDate: 2022-12-08T12:00:00Z
 expiryDate: 2023-12-31T23:59:59Z
 draft: true
-author: Author
+author: Kord Kurpanek
 categories:
 - Sicherheit
 - UDEoffline
-description: description here
+description: Passwort-Manager und weitere Tipps nach dem UDE-Hack
 slug: verhalten-nach-ude-hack
 tags:
 - Sicherheit
@@ -58,11 +58,11 @@ Die Originalversion KeePass ist einer vier populärsten Passwortmanager ([2017](
 und ist besonders für Windows Systeme geeignet.
 
 Für nutzer anderer, oder insbesondere mehrerer Betriebssystemem (Linux, Android, iOS, ...),
-empfiehlt sich KeePassXC.
+empfiehlt sich die Cross-Platform Alternative KeePassXC.
 
 ![Screenshot KeePassXC Oberfläche Thema Vergleich](https://keepassxc.org/images/screenshots/theme_comparison.png)
 
-Unter diesen Versionen raten wir zu KeePassXC: [Quick Start Guide](https://keepassxc.org/docs/KeePassXC_GettingStarted.html).
+Wir raten zu KeePassXC: [Quick Start Guide](https://keepassxc.org/docs/KeePassXC_GettingStarted.html). ([Unterschied erklärt im KeePassXC FAQ](https://keepassxc.org/docs/#faq-keepass))
 
 ### Bitwarden
 
@@ -84,7 +84,7 @@ das durch ein [Premium Abonnement](https://bitwarden.com/pricing/)
 unterstütz wird.
 Die meisten Features sind in der kostenfreien Version enthalten.
 
-Für Selbst-Hoster gibt es Community-Projekte wie [Vaultwarden](https://github.com/dani-garcia/vaultwarden).
+Für Selbst-Hoster gibt es das Community-Projekt [Vaultwarden](https://github.com/dani-garcia/vaultwarden).
 
 ## Weitere Literatur
 
