@@ -1,4 +1,109 @@
 baseURL = 'https://fsri-ude.github.io'
-languageCode = 'en-us'
+languageCode = 'de-de'
 title = 'Fachschaftsrat Informatik'
 theme = 'terminal'
+paginate = 5
+
+[params]
+# dir name of your main content (default is `content/posts`).
+# the list of set content will show up on your index page (baseurl).
+# contentTypeName = "content/posts"
+
+# ["orange", "blue", "red", "green", "pink"] (orange)
+themeColor = "blue"
+
+# if you set this to 0, only submenu trigger will be visible
+# showMenuItems = 2
+
+# show selector to switch language (false)
+# showLanguageSelector = false
+
+# set theme to full screen width (false)
+# fullWidthTheme = false
+
+# center theme with default width (false)
+centerTheme = true
+
+# if your resource directory contains an image called `cover.(jpg|png|webp)`,
+# then the file will be used as a cover automatically.
+# With this option you don't have to put the `cover` param in a front-matter.
+# autoCover = true # default: true
+
+# set post to show the last updated
+# If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+showLastUpdated = true # default: false
+
+# set a custom favicon (default is a `themeColor` square)
+# favicon = "favicon.ico"
+
+# Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+# updatedDatePrefix = "Updated"
+
+# set all headings to their default size (depending on browser settings)
+oneHeadingSize = false # default: true
+
+# whether to show a page's estimated reading time
+readingTime = true # default: false
+
+# whether to show a table of contents
+# can be overridden in a page's front-matter
+Toc = true # default: false
+
+# set title for the table of contents
+# can be overridden in a page's front-matter
+# TocTitle = "Table of Contents" # default: Table of Contents
+
+
+[params.twitter]
+# set Twitter handles for Twitter cards
+# see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+# do not include @
+creator = "FSRi_mumble"
+site = "fsri-ude.github.io"
+
+[languages]
+[languages.en]
+languageName = "English"
+title = "FSRi"
+subtitle = "Zwischenzeitliche Webseite des FSRi UDE"
+owner = "Fachschaftsrat Informatik UDE"
+# keywords = ""
+copyright = "© 2022-2023 Fachschaftsrat Informatik UDE"
+menuMore = "Show more"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+newerPosts = "Newer posts"
+olderPosts = "Older posts"
+missingContentMessage = "Page not found..."
+missingBackButtonLabel = "Back to home page"
+
+[languages.de]
+languageName = "Deutsch"
+title = "FSRi"
+subtitle = "Zwischenzeitliche Webseite des FSRi UDE"
+owner = "Fachschaftsrat Informatik UDE"
+# keywords = ""
+copyright = "© 2022-2023 Fachschaftsrat Informatik UDE"
+menuMore = "Mehr anzeigen"
+readMore = "Weiter lesen"
+readOtherPosts = "Andere Posts lesen"
+newerPosts = "Neuere Posts"
+olderPosts = "Ältere Posts"
+missingContentMessage = "Seite nicht gefunden..."
+missingBackButtonLabel = "Zurück zur Hauptseite"
+
+[languages.en.params.logo]
+logoText = "FSRi"
+logoHomeLink = "/"
+
+[languages.de.params.logo]
+logoText = "FSRi"
+logoHomeLink = "/de/"
+
+# [module]
+#   # In case you would like to make changes to the theme and keep it locally in you repository,
+#   # uncomment the line below (and correct the local path if necessary).
+#   # --
+#   replacements = "github.com/panr/hugo-theme-terminal -> themes/terminal"
+# [[module.imports]]
+#   path = 'github.com/panr/hugo-theme-terminal'
