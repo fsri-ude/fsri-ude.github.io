@@ -1,7 +1,7 @@
 ---
 title: Impressum und Datenschutzerklärung
 date: 2022-12-08T20:01:13Z
-draft: true
+draft: false
 author: FSRi
 Toc: false
 readingTime: false
