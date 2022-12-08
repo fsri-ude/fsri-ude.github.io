@@ -1,4 +1,6 @@
 ---
+exclude: ^(\.idea)|\.(iml|css|map|xml)$
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: 3298ddab3c13dd77d6ce1fc0baf97691430d84b0 # v4.3.0
