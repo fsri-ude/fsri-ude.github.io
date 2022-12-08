@@ -112,10 +112,33 @@ Zwei beliebte 2FA Apps sind:
 Beide sind in Features ähnlich, wobei Authy eine Wiederherstellung der Codes nach Datenverlust/Zurücksetzen ermöglicht.
 Wir empfehlen Authy.
 
+### Hardware Keys
+
+Hardware Security Keys bieten erhöhte Sicherheit über herkömmliche Zwei-Faktor Methoden,
+oder auch über Passwörter.
+Je nach Dienstleister kann ein Security Key den 2FA Code ersetzen,
+oder zur passwortlosen Anmeldung dienen.
+
+Ein solcher Security Key ist vergleichbar mit einem USB-Stick:
+
+![YubiKey 5 Series](https://www.yubico.com/wp-content/uploads/2022/09/YubiKey-5-family-new-photos-web@2x-1-768x672.png)
+
+Wobei es auch modelle mit NFC Support gibt, für kontaktlose Nutzung am Mobilgerät.
+
+Viele moderne Mobilgeräte enthalten bereits einen ähnlichen Sicherheits-Chip,
+der die gleiche Funktion erfüllen kann.
+
+### Passkeys
+
+[Passkeys](https://www.passkeys.io) sind eine neue Anmeldemethode, die als software-basierte Security Keys zu verstehen sind.
+
+Verfügbar auf [Android](https://developers.google.com/identity/passkeys/supported-environments) (auch Chrome) und [iOS 16+](https://developer.apple.com/passkeys/) (auch macOS), werden diese Schlüssel über Google Passwortmanager bzw. iCloud Keychain synchronisiert.
+
 ## Weitere Literatur
 
 Für Informationen über diesen Artikel hinaus, hier ein paar Links:
 
 - <https://authy.com/what-is-2fa/>
 - <https://www.consumerreports.org/digital-security/everything-you-need-to-know-about-password-managers/>
+- <https://www.yubico.com/why-yubico/for-individuals/>
 - <https://www.phishing.org/what-is-phishing>
