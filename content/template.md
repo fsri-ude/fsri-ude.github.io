@@ -4,7 +4,7 @@ date: 2022-12-09T08:19:59+01:00
 draft: true
 author: Author des Eintrags
 categories:
-- hier können mehrere 
+- hier können mehrere
 - Kategorien genannt werden
 description: Beschreibung
 slug: url-eintrag
