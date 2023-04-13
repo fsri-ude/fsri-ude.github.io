@@ -66,7 +66,7 @@ oder via `docker` und `make`
 make build
 ```
 
-## Ausführung
+### Ausführung
 
 ```shell
 hugo server
