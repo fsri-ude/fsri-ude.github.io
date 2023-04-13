@@ -22,7 +22,11 @@ Mit `hugo` via
 
 - `hugo new <subsection>/<title>.md` i.e. `hugo new posts/my-first-post.md`
 
-oder ohne Hugo, indem du die `template.md` Datei aus dem `content` Ordner kopierst, und die parameter anpasst.
+Mit `docker` und `make` via
+
+- `make new "posts/sitzung-2023-10-11.md"`
+
+oder ohne Hugo, indem du die `template.md` Datei aus dem `content` Ordner kopierst, und die parameter anpasst. Die Datei kann allerdings veraltet sein, was darin resultiert, dass die Seite nicht gebaut wird!
 
 ### Wie veröffentliche ich eine Seite?
 
@@ -36,12 +40,39 @@ git push
 
 Im Anschluss startet Github die Action, und wenig später sollte der Post da sein.
 
-## Local testing
-
 ## Lokale Ausführung
+
+### Theme
 
 Themes werden als git submodules gezogen, also musst du folgendes ausführen, wenn du die Website lokal ausführen willst
 
 ```shell
 git submodule update --init --recursive
+```
+
+oder via `docker` und `make`
+```shell
+make setup
+```
+
+### Seiten bauen
+
+```shell
+hugo
+```
+
+oder via `docker` und `make`
+```shell
+make build
+```
+
+## Ausführung
+
+```shell
+hugo server
+```
+
+oder via `docker` und `make`
+```shell
+make run
 ```
